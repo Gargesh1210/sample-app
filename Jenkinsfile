@@ -2,8 +2,9 @@ pipeline {
     agent any
 
     tools {
-        maven 'maven3'   // Make sure this matches Jenkins Global Tool Config
-    }
+    maven 'Maven3'   // Must match exactly what Jenkins shows
+}
+
 
     stages {
         stage('Build') {
